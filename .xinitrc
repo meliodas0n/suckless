@@ -1,7 +1,8 @@
 #!/bin/sh
 
-picom &
+~/.monitor
 ~/.fehbg
+picom &
 dwmblocks &
 alacritty_colors
 exec dwm
